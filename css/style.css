@@ -35,7 +35,12 @@ ul {
 /* ========================================== */
 /* global */
 
+.contents-wrap {
+  margin-top: 40px;
+}
+
 /* ========================================== */
+/* practice1 */
 #container {
   display: grid; /* グリッドレイアウト */
   grid-template-rows: 100px 50px;
@@ -58,4 +63,41 @@ ul {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
   background: #88f;
+}
+
+/* ========================================== */
+/* practice2 */
+#boxes {
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+
+#dt1 {
+  grid-row: 1;
+  grid-column: 1;
+  background-color: #88f;
+}
+
+#dd1 {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+#dt2 {
+  grid-row: 2;
+  grid-column: 2;
+  background-color: #8f8;
+}
+
+#dd2 {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+/* ========================================== */
+/* practice3 */
+.body {
+  display: grid;
+  margin: 0;
+  min-height: 100vh;
 }
